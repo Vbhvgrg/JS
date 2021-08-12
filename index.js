@@ -1,6 +1,6 @@
 // Challenge 1
 function ageInDays() {
-    var DOB = prompt('When did you Born...My Dear Friend ?');
+    var DOB = prompt('When were you Born...My Dear Friend ?');
     var Days = (2021 - DOB) * 365;
     var h1 = document.createElement('h1');
     var text = document.createTextNode('You are '+ Days + ' day old.');
