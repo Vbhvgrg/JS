@@ -1,0 +1,81 @@
+.Inside-Container-1 , .Buttons {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.Inside-Container-1 div{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.Main-Container{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.Container-2{
+    border: 1px solid black;
+    
+}
+.Cat-Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    border: 1px solid black;
+}
+.Cat-Container img{
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+.RPS,.Blackjack_row-3{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.RPS img:hover{
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+
+.Blackjack_row-1{
+    display: flex;
+    border: 1px black solid;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.YourBox, .DealerBox{
+    width: 50%;
+    height: 14cm;
+    border: 1px black solid;
+    padding: 10px;
+    
+}
+.YourBox img , .DealerBox img {
+    max-width: 25%;
+    max-height: 25%;
+}
+.Blackjack_row-2{
+    padding: 10px;
+    border: 1px black solid;
+}
+.Blackjack_row-1,.Blackjack_row-2{
+    background: url('https://st3.depositphotos.com/1785730/14854/i/450/depositphotos_148542321-stock-photo-texture-felt-poker-table.jpg') center;
+    color: #fff;
+}
+
+ table{
+    
+    border: 1px black solid;
+}
+
